@@ -4,10 +4,10 @@ import (
 	"flag"
 	"time"
 
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/signer/universal"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/signer/universal"
 )
 
 // Config is a type to hold flag values used by cfssl commands.

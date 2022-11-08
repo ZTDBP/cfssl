@@ -1,9 +1,9 @@
-//Package gencrl implements the gencrl command
+// Package gencrl implements the gencrl command
 package gencrl
 
 import (
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/crl"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/crl"
 	"strings"
 )
 

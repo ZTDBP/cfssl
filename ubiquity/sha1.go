@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztdbp/cfssl/helpers"
 )
 
 // DeprecationSeverity encodes the severity of a deprecation policy

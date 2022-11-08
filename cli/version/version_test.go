@@ -3,7 +3,7 @@ package version
 import (
 	"testing"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli"
 )
 
 func TestVersionMain(t *testing.T) {

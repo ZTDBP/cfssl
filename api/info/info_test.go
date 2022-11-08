@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/local"
+	"github.com/ztdbp/cfssl/api"
+	"github.com/ztdbp/cfssl/signer"
+	"github.com/ztdbp/cfssl/signer/local"
 )
 
 const (

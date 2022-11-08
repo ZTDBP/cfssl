@@ -9,13 +9,13 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/ztalab/cfssl/api/client"
-	"github.com/ztalab/cfssl/auth"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/transport/core"
+	"github.com/ztdbp/cfssl/api/client"
+	"github.com/ztdbp/cfssl/auth"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/info"
+	"github.com/ztdbp/cfssl/signer"
+	"github.com/ztdbp/cfssl/transport/core"
 )
 
 type authError struct {

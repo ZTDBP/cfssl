@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/genkey"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/selfsign"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli/genkey"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/selfsign"
 )
 
 var selfSignUsageText = `cfssl selfsign -- generate a new self-signed key and signed certificate

@@ -25,9 +25,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/transport/core"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/transport/core"
 )
 
 const (

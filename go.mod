@@ -1,4 +1,4 @@
-module github.com/ztalab/cfssl
+module github.com/ztdbp/cfssl
 
 go 1.17
 

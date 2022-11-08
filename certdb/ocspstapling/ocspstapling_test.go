@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	ct "github.com/google/certificate-transparency-go"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/certdb/testdb"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztdbp/cfssl/certdb"
+	"github.com/ztdbp/cfssl/certdb/sql"
+	"github.com/ztdbp/cfssl/certdb/testdb"
+	"github.com/ztdbp/cfssl/helpers"
 	"golang.org/x/crypto/ocsp"
 )
 

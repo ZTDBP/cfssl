@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ztalab/cfssl/bundler"
+	"github.com/ztdbp/cfssl/bundler"
 )
 
 // Broad contains scanners for large swaths of TLS hosts on the internet.

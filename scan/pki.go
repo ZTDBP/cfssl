@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/revoke"
-	"github.com/ztalab/cfssl/scan/crypto/tls"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/revoke"
+	"github.com/ztdbp/cfssl/scan/crypto/tls"
 )
 
 // PKI contains scanners for the Public Key Infrastructure.

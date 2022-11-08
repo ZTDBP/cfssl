@@ -1,6 +1,6 @@
 package scan
 
-import "github.com/ztalab/cfssl/scan/crypto/tls"
+import "github.com/ztdbp/cfssl/scan/crypto/tls"
 
 // TLSSession contains tests of host TLS Session Resumption via
 // Session Tickets and Session IDs

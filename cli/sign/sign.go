@@ -6,13 +6,13 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	certsql "github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/signer"
-	"github.com/ztalab/cfssl/signer/universal"
+	"github.com/ztdbp/cfssl/certdb/dbconf"
+	certsql "github.com/ztdbp/cfssl/certdb/sql"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/signer"
+	"github.com/ztdbp/cfssl/signer/universal"
 
 	"github.com/jmoiron/sqlx"
 )

@@ -3,7 +3,7 @@ package printdefaults
 import (
 	"fmt"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli"
 )
 
 var printDefaultsUsage = `cfssl print-defaults -- print default configurations that can be used as a template

@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/ztalab/cfssl/whitelist"
+	"github.com/ztdbp/cfssl/whitelist"
 )
 
 var wl = whitelist.NewBasic()

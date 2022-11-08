@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ztalab/cfssl/cli/version"
+	"github.com/ztdbp/cfssl/cli/version"
 )
 
 func readFile(filespec string) ([]byte, error) {

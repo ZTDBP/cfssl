@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ztalab/cfssl/ubiquity"
+	"github.com/ztdbp/cfssl/ubiquity"
 )
 
 // remoteTest defines a test case for BundleFromRemote. Hostname and ip are the test inputs.

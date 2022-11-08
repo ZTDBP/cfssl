@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/certinfo"
-	"github.com/ztalab/cfssl/config"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli/certinfo"
+	"github.com/ztdbp/cfssl/config"
 
 	_ "github.com/go-sql-driver/mysql" // import to support MySQL
 	_ "github.com/lib/pq"              // import to support Postgres

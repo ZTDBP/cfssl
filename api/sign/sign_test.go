@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/auth"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/signer"
+	"github.com/ztdbp/cfssl/api"
+	"github.com/ztdbp/cfssl/auth"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/signer"
 )
 
 const (

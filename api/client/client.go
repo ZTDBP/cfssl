@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/auth"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/api"
+	"github.com/ztdbp/cfssl/auth"
+	"github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/info"
+	"github.com/ztdbp/cfssl/log"
 )
 
 // A server points to a single remote CFSSL instance.

@@ -12,7 +12,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	cferr "github.com/ztalab/cfssl/errors"
+	cferr "github.com/ztdbp/cfssl/errors"
 )
 
 // ParsePrivateKeyDER parses a PKCS #1, PKCS #8, ECDSA, or Ed25519 DER-encoded

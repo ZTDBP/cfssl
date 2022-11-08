@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/cloudflare/backoff"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/revoke"
-	"github.com/ztalab/cfssl/transport/ca"
-	"github.com/ztalab/cfssl/transport/core"
-	"github.com/ztalab/cfssl/transport/kp"
-	"github.com/ztalab/cfssl/transport/roots"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/revoke"
+	"github.com/ztdbp/cfssl/transport/ca"
+	"github.com/ztdbp/cfssl/transport/core"
+	"github.com/ztdbp/cfssl/transport/kp"
+	"github.com/ztdbp/cfssl/transport/roots"
 )
 
 func envOrDefault(key, def string) string {

@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/ztdbp/cfssl/api"
+	"github.com/ztdbp/cfssl/certdb"
+	"github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/ocsp"
 
 	stdocsp "golang.org/x/crypto/ocsp"
 )

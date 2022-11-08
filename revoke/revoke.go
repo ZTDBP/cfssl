@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
 )
 
 // HardFail determines whether the failure to check the revocation
@@ -54,16 +54,16 @@ func ldapURL(url string) bool {
 // is revoked, the second indicates whether the revocations were
 // successfully checked.. This leads to the following combinations:
 //
-//  false, false: an error was encountered while checking revocations.
+//	false, false: an error was encountered while checking revocations.
 //
-//  false, true:  the certificate was checked successfully and
-//                  it is not revoked.
+//	false, true:  the certificate was checked successfully and
+//	                it is not revoked.
 //
-//  true, true:   the certificate was checked successfully and
-//                  it is revoked.
+//	true, true:   the certificate was checked successfully and
+//	                it is revoked.
 //
-//  true, false:  failure to check revocation status causes
-//                  verification to fail
+//	true, false:  failure to check revocation status causes
+//	                verification to fail
 func revCheck(cert *x509.Certificate) (revoked, ok bool, err error) {
 	for _, url := range cert.CRLDistributionPoints {
 		if ldapURL(url) {

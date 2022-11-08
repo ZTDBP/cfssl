@@ -1,9 +1,7 @@
 /*
-
 Package ocsp exposes OCSP signing functionality, much like the signer
 package does for certificate signing.  It also provies a basic OCSP
 responder stack for serving pre-signed OCSP responses.
-
 */
 package ocsp
 
@@ -17,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	cferr "github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
 	"golang.org/x/crypto/ocsp"
 )
 

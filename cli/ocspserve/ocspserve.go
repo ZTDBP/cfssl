@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/ocsp"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/ocsp"
 )
 
 // Usage text of 'cfssl serve'

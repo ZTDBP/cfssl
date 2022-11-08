@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/signer"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/signer"
 )
 
 var gencsrUsageText = `cfssl gencsr -- generate a csr from a private key with existing CSR json specification or certificate

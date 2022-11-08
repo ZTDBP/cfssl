@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/helpers"
 )
 
 const (

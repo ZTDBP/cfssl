@@ -1,16 +1,16 @@
-//Package crl implements the crl command
+// Package crl implements the crl command
 package crl
 
 import (
 	"os"
 
-	"github.com/ztalab/cfssl/certdb/dbconf"
-	certsql "github.com/ztalab/cfssl/certdb/sql"
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/crl"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/certdb/dbconf"
+	certsql "github.com/ztdbp/cfssl/certdb/sql"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/crl"
+	cferr "github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
 
 	"github.com/jmoiron/sqlx"
 )

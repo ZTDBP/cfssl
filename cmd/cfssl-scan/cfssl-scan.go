@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/cli/scan"
-	"github.com/ztalab/cfssl/config"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli/scan"
+	"github.com/ztdbp/cfssl/config"
 )
 
 // main defines the scan usage and registers all defined commands and flags.

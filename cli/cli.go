@@ -33,7 +33,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ztalab/cfssl/config"
+	"github.com/ztdbp/cfssl/config"
 )
 
 // Command holds the implementation details of a cfssl command.

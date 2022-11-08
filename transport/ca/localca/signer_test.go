@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/kisom/goutils/assert"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/initca"
-	"github.com/ztalab/cfssl/selfsign"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/initca"
+	"github.com/ztdbp/cfssl/selfsign"
 )
 
 func tempName() (string, error) {

@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/info"
+	"github.com/ztdbp/cfssl/certdb"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/csr"
+	cferr "github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/info"
 )
 
 // Subject contains the information that should be used to override the

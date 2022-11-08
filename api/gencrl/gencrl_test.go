@@ -3,7 +3,7 @@ package gencrl
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/ztalab/cfssl/api"
+	"github.com/ztdbp/cfssl/api"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

@@ -7,7 +7,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ztalab/cfssl/scan/crypto/tls"
+	"github.com/ztdbp/cfssl/scan/crypto/tls"
 )
 
 // Connectivity contains scanners testing basic connectivity to the host

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli"
 )
 
 func TestGencertMain(t *testing.T) {

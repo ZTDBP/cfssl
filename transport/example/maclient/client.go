@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ztalab/cfssl/transport"
-	"github.com/ztalab/cfssl/transport/core"
-	"github.com/ztalab/cfssl/transport/example/exlib"
+	"github.com/ztdbp/cfssl/transport"
+	"github.com/ztdbp/cfssl/transport/core"
+	"github.com/ztdbp/cfssl/transport/example/exlib"
 )
 
 // maclient is a mutual-authentication client, meant to demonstrate

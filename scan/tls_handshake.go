@@ -7,8 +7,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/scan/crypto/tls"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/scan/crypto/tls"
 )
 
 // Sentinel for failures in sayHello. Should always be caught.

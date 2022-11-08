@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/log"
 
 	_ "github.com/mattn/go-sqlite3" // import just to initialize SQLite for testing
 )

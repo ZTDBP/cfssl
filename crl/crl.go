@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/certdb"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
 )
 
 // NewCRLFromFile takes in a list of serial numbers, one per line, as well as the issuing certificate

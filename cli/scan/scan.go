@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/ztalab/cfssl/cli"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/scan"
+	"github.com/ztdbp/cfssl/cli"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/scan"
 )
 
 var scanUsageText = `cfssl scan -- scan a host for issues

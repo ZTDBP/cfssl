@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/api/client"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/transport/core"
+	"github.com/ztdbp/cfssl/api/client"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/info"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/transport/core"
 )
 
 var (

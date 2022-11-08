@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ztalab/cfssl/api"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/csr"
-	"github.com/ztalab/cfssl/signer/local"
+	"github.com/ztdbp/cfssl/api"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/csr"
+	"github.com/ztdbp/cfssl/signer/local"
 )
 
 const (

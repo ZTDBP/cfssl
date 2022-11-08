@@ -9,15 +9,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/ubiquity"
+	"github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/ubiquity"
 )
 
 const (
-	// from https://github.com/ztalab/cfssl_trust/blob/master/ca-bundle.crt
+	// from https://github.com/ztdbp/cfssl_trust/blob/master/ca-bundle.crt
 	testCaBundle = "testdata/ca-bundle.pem"
-	// from https://github.com/ztalab/cfssl_trust/blob/master/int-bundle.crt
+	// from https://github.com/ztdbp/cfssl_trust/blob/master/int-bundle.crt
 	testIntCaBundle     = "testdata/int-bundle.pem"
 	testNSSRootBundle   = "testdata/nss.pem"
 	testMetadata        = "testdata/ca-bundle.crt.metadata"

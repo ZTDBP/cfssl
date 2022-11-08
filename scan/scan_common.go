@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/log"
-	"github.com/ztalab/cfssl/scan/crypto/tls"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/log"
+	"github.com/ztdbp/cfssl/scan/crypto/tls"
 )
 
 var (

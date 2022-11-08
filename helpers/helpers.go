@@ -15,7 +15,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/ztalab/cfssl/hook"
+	"github.com/ztdbp/cfssl/hook"
 	"io/ioutil"
 	"os"
 
@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/crypto/pkcs7"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers/derhelpers"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/crypto/pkcs7"
+	cferr "github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers/derhelpers"
+	"github.com/ztdbp/cfssl/log"
 	"golang.org/x/crypto/pkcs12"
 )
 

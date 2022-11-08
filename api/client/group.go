@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/auth"
-	"github.com/ztalab/cfssl/info"
+	"github.com/ztdbp/cfssl/auth"
+	"github.com/ztdbp/cfssl/info"
 )
 
 // Strategy is the means by which the server to use as a remote should

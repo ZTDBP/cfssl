@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ztalab/cfssl/certdb"
-	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztdbp/cfssl/certdb"
+	cferr "github.com/ztdbp/cfssl/errors"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/kisielk/sqlstruct"

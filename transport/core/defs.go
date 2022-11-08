@@ -7,13 +7,12 @@
 // authentication for servers, and a general-purpose server
 // configuration applicable where mutual authentication is not
 // appropriate.
-//
 package core
 
 import (
 	"time"
 
-	"github.com/ztalab/cfssl/csr"
+	"github.com/ztdbp/cfssl/csr"
 )
 
 // A Root stores information about a trusted root.

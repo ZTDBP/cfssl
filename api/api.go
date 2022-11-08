@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/log"
+	"github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/log"
 )
 
 // Handler is an interface providing a generic mechanism for handling HTTP requests.

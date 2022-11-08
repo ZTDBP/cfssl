@@ -11,7 +11,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	cferr "github.com/ztalab/cfssl/errors"
+	cferr "github.com/ztdbp/cfssl/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

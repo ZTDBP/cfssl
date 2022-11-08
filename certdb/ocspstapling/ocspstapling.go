@@ -11,9 +11,9 @@ import (
 	"errors"
 
 	ct "github.com/google/certificate-transparency-go"
-	"github.com/ztalab/cfssl/certdb"
-	cferr "github.com/ztalab/cfssl/errors"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztdbp/cfssl/certdb"
+	cferr "github.com/ztdbp/cfssl/errors"
+	"github.com/ztdbp/cfssl/helpers"
 	"golang.org/x/crypto/ocsp"
 )
 
@@ -24,7 +24,7 @@ var sctExtOid = asn1.ObjectIdentifier{1, 3, 6, 1, 4, 1, 11129, 2, 4, 5}
 // responses in a database wrapped by a given certdb.Accessor.
 //
 // NOTE: This function is patterned after the exported Sign method in
-// https://github.com/ztalab/cfssl/blob/master/signer/local/local.go
+// https://github.com/ztdbp/cfssl/blob/master/signer/local/local.go
 func StapleSCTList(acc certdb.Accessor, serial, aki string, scts []ct.SignedCertificateTimestamp,
 	responderCert, issuer *x509.Certificate, priv crypto.Signer) error {
 	ocspRecs, err := acc.GetOCSP(serial, aki)

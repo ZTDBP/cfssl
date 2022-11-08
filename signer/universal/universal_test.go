@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	apiinfo "github.com/ztalab/cfssl/api/info"
-	apisign "github.com/ztalab/cfssl/api/signhandler"
-	"github.com/ztalab/cfssl/config"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/cfssl/helpers/testsuite"
-	"github.com/ztalab/cfssl/info"
-	"github.com/ztalab/cfssl/signer"
+	apiinfo "github.com/ztdbp/cfssl/api/info"
+	apisign "github.com/ztdbp/cfssl/api/signhandler"
+	"github.com/ztdbp/cfssl/config"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/cfssl/helpers/testsuite"
+	"github.com/ztdbp/cfssl/info"
+	"github.com/ztdbp/cfssl/signer"
 )
 
 const (

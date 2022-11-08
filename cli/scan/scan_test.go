@@ -3,7 +3,7 @@ package scan
 import (
 	"testing"
 
-	"github.com/ztalab/cfssl/cli"
+	"github.com/ztdbp/cfssl/cli"
 )
 
 var hosts = []string{"www.cloudflare.com", "google.com"}

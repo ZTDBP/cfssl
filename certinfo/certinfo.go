@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ztalab/cfssl/certdb"
-	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztdbp/cfssl/certdb"
+	"github.com/ztdbp/cfssl/helpers"
 )
 
 // Certificate represents a JSON description of an X.509 certificate.
