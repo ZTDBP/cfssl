@@ -1,0 +1,10 @@
+dist/*
+cli/serve/rice-box.go
+coverage.txt
+profile.out
+bin
+*.deb
+*.rpm
+test
+
+.idea/
