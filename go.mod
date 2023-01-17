@@ -11,7 +11,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/certificate-transparency-go v1.1.3
 	github.com/jmhodges/clock v0.0.0-20160418191101-880ee4c33548
-	github.com/jmoiron/sqlx v1.2.0
+	github.com/jmoiron/sqlx v1.3.5
 	github.com/kisielk/sqlstruct v0.0.0-20150923205031-648daed35d49
 	github.com/kisom/goutils v1.1.0
 	github.com/lib/pq v1.3.0
