@@ -8,7 +8,7 @@ require (
 	github.com/cloudflare/backoff v0.0.0-20161212185259-647f3cdfc87a
 	github.com/cloudflare/go-metrics v0.0.0-20151117154305-6a9aea36fb41
 	github.com/cloudflare/redoctober v0.0.0-20171127175943-746a508df14c
-	github.com/go-sql-driver/mysql v1.6.0
+	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/certificate-transparency-go v1.1.3
 	github.com/jmhodges/clock v0.0.0-20160418191101-880ee4c33548
 	github.com/jmoiron/sqlx v1.3.4
@@ -16,7 +16,6 @@ require (
 	github.com/kisom/goutils v1.1.0
 	github.com/lib/pq v1.3.0
 	github.com/mattn/go-sqlite3 v1.14.10
-	github.com/stretchr/testify v1.7.1
 	github.com/zmap/zcrypto v0.0.0-20200911161511-43ff0ea04f21
 	github.com/zmap/zlint/v2 v2.2.1
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
@@ -41,7 +40,6 @@ require (
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/daaku/go.zipexe v1.0.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/envoyproxy/go-control-plane v0.10.2-0.20220325020618-49ff273808a1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.3.0-java // indirect
@@ -72,7 +70,6 @@ require (
 	github.com/nkovacs/streamquote v0.0.0-20170412213628-49af9bddb229 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.12.1 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.34.0 // indirect
@@ -130,6 +127,5 @@ require (
 	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
