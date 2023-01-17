@@ -242,8 +242,8 @@ github.com/jhump/protoreflect/internal/codec
 # github.com/jmhodges/clock v0.0.0-20160418191101-880ee4c33548
 ## explicit
 github.com/jmhodges/clock
-# github.com/jmoiron/sqlx v1.2.0
-## explicit
+# github.com/jmoiron/sqlx v1.3.4
+## explicit; go 1.10
 github.com/jmoiron/sqlx
 github.com/jmoiron/sqlx/reflectx
 github.com/jmoiron/sqlx/types
